@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+* {
+  font-family: "Merienda";
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
+.score {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  height: 5em;
+  width: 30em;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.choose {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.choises {
+  height: 200px;
+  width: 320px;
+  cursor: pointer;
+  font-size: 32px;
+  border-radius: 3rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+#rock:hover {
+  background-color: aquamarine;
+  transition-duration: 1s;
+}
+#paper:hover {
+  background-color: lightgoldenrodyellow;
+  transition-duration: 1s;
+}
+#scissors:hover {
+  background-color: lightpink;
+  transition-duration: 1s;
+}
+
+.displayChoices {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 2rem;
+}
